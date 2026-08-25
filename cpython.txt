@@ -1,0 +1,25 @@
+1. python source code : human readable code
+2. tokenization , parsing and syntax checking : source characters -> tokens -> abstract syntax tree (AST)
+3. cpython compiler : converts the AST  into a code object containing cpython bytecode
+4. cpython bytecode interpreter : the evaluation loop , commonly described pedagogically as the virtual machine (PVM) , executes bytecode instructions within exectuion frames
+5. program outcome : produce console output , a returned value , file or network , or other intended action
+
+type() function and typecasting
+type() function is used to find the data type oof a given variable in python
+
+a=31
+type(a) # class <int>
+
+b="31"
+type(b) #class <str>
+
+a number can be converted into string and viceversa
+
+str(31) #integer  to string conversion
+int("32") # STRING TO integer conversion
+float(32) #integer to float conversion
+
+input() function
+this function allows the user to take input from the keyboard as a string
+
+a = input("enter name") #if a is "harry", the user entered harry

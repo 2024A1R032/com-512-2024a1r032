@@ -1,3 +1,4 @@
+#pyramid of stars
 n=int(input("enter the range: "))
 for i in range(1,n+1):
     for j in range(n-i):
